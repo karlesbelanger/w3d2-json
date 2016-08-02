@@ -96,9 +96,9 @@ public class MainActivity extends AppCompatActivity {
         for (Student student :
                 students) {
             Log.d(TAG, "doGSONMagic:"  +
-                    ", Name : "+ student.name +
-                    ", Grade : " + student.grade +
-                    ", Age : " + student.age);
+                    ", Name : "+ student.getName() +
+                    ", Grade : " + student.getGrade() +
+                    ", Age : " + student.getAge());
         }
     }
 }
